@@ -1,0 +1,30 @@
+{
+    "instances": [ // private instances for inference
+      {
+        "url": "http://10.82.1.1:8080/v1",
+        "api_key": "empty",
+        "model_name": "deepseek-r1",
+        "weight": 1
+      },
+       {
+       "url": "http://10.82.1.2:8080/v1",
+       "api_key": "empty",
+       "model_name": "deepseek-r1",
+       "weight": 1
+      }
+    ],
+    "fallback_instances":[  // optional, fallback instances for in case of all private instances are down
+      {
+        "url": "https://cloud.infini-ai.com/maas/v1",
+        "api_key":"your_api_key",
+        "model_name": "deepseek-r1",
+        "weight": 1
+      }
+
+    ],
+    "data_dir": "./data",
+    "load_balancing_strategy": "round_robin", // options: round_robin, least_connections
+    "error_threshold": 10,  // number of consecutive errors before remove this server from the pool
+    "error_window": 300, // time window for error count
+    "alert_cooldown": 300 // time window for alerting
+  }

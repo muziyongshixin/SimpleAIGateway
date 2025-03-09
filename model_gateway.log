@@ -1,0 +1,20 @@
+2025-03-04 21:49:27,678 - model_gateway - INFO - Using http_proxy = http://10.1.2.1:1800
+2025-03-04 21:49:27,748 - model_gateway - INFO - Using http_proxy = http://10.1.2.1:1800
+2025-03-04 21:49:27,773 - model_gateway - INFO - 配置已加载: 2 个模型实例, 成功加载2个兜底实例
+2025-03-04 21:49:27,775 - model_gateway - INFO - 模型网关已启动
+2025-03-05 11:29:34,965 - model_gateway - INFO - Using http_proxy = http://oversea.txyun:8000
+2025-03-05 11:29:35,315 - model_gateway - INFO - Using http_proxy = http://oversea.txyun:8000
+2025-03-05 11:29:35,358 - model_gateway - INFO - 配置已加载: 2 个模型实例, 成功加载2个兜底实例
+2025-03-05 11:29:35,360 - model_gateway - INFO - 模型网关已启动
+2025-03-05 11:32:17,551 - model_gateway - INFO - 接收到请求: chat/completions, stream=True, request_id=1741145537_140221710566176
+2025-03-05 11:32:27,576 - model_gateway - INFO - 成功保存请求和响应数据到: ./data/requests_responses/20250305_11.jsonl
+2025-03-05 11:34:09,504 - model_gateway - INFO - 接收到请求: chat/completions, stream=True, request_id=1741145649_140221710650976
+2025-03-05 11:34:10,658 - model_gateway - INFO - 成功保存请求和响应数据到: ./data/requests_responses/20250305_11.jsonl
+2025-03-05 11:35:29,740 - model_gateway - INFO - 接收到请求: chat/completions, stream=True, request_id=1741145729_140221710655152
+2025-03-05 11:35:58,754 - model_gateway - INFO - 成功保存请求和响应数据到: ./data/requests_responses/20250305_11.jsonl
+2025-03-05 11:36:08,568 - model_gateway - INFO - 接收到请求: chat/completions, stream=True, request_id=1741145768_140221710812512
+2025-03-05 11:36:10,389 - model_gateway - INFO - 成功保存请求和响应数据到: ./data/requests_responses/20250305_11.jsonl
+2025-03-05 11:36:31,199 - model_gateway - INFO - 接收到请求: chat/completions, stream=True, request_id=1741145791_140221710811312
+2025-03-05 11:37:19,354 - model_gateway - INFO - 成功保存请求和响应数据到: ./data/requests_responses/20250305_11.jsonl
+2025-03-05 11:38:13,987 - model_gateway - INFO - 接收到请求: chat/completions, stream=False, request_id=1741145893_140221710599712
+2025-03-05 11:38:27,772 - model_gateway - INFO - 成功保存请求和响应数据到: ./data/requests_responses/20250305_11.jsonl
