@@ -20,6 +20,7 @@ If you find any better open-source projects that fulfill the above features, ple
 - **Fallback Instance Configuration:**  Fallback instances (like external APIs) can be configured for disaster recovery, preventing impact on online business if all privately deployed instances go down.
 - **Request Logging and Persistence:** Requests and responses passing through the AI gateway are automatically written to files, saved hourly in sharegpt format, facilitating subsequent model training.
 - **Monitoring and Alerting:** (This feature currently only writes error information to log files. You can add internal alerting mechanisms like WeChat messages or emails based on your own needs).
+- **Allows easy configuration of policies**  Enabling features like context length limits, prompt filtering and optimization, and risk management of model output results on the gateway. (Requires custom development)
 
 ## Quick Start
 ### Environment Preparation:
